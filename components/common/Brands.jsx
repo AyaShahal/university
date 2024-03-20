@@ -8,17 +8,17 @@ const Brands = ({ backgroundColorComponent, brandsTwo }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-
+   
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(window.innerWidth < 768); 
     };
 
-
+   
     window.addEventListener("resize", handleResize);
 
     handleResize();
 
-
+  
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -47,11 +47,11 @@ const Brands = ({ backgroundColorComponent, brandsTwo }) => {
                 data-aos="fade-up"
                 data-aos-duration="300"
                 key={index}
-                className={`col-lg-auto col-md-3 col-sm-6 col-6`}
+                className={`col-lg-auto col-md-3 col-sm-4 col-6`}
                 onClick={() => handleImageClick(index)}
                 style={{ cursor: "pointer" }}
               >
-                <div className="">
+                <div className="d-flex justify-center items-center px-4">
                   <Image
                     className="w-1/1"
                     src={brand.image}
@@ -61,7 +61,7 @@ const Brands = ({ backgroundColorComponent, brandsTwo }) => {
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-
+              
                 {(isMobile && selectedImageIndex === index) && (
                   <p className="text-center mt-2">{brand.description}</p>
                 )}
@@ -82,7 +82,7 @@ const Brands = ({ backgroundColorComponent, brandsTwo }) => {
                 height={180}
                 style={{ objectFit: "contain" }}
               />
-
+            
               <p className="text-center mt-2 hidden sm:block">{brands[selectedImageIndex].description}</p>
             </div>
           </div>

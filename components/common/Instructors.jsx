@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
 import React, { useEffect, useState } from "react";
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -46,21 +46,17 @@ export default function Instructors({ backgroundColor }) {
          slidesPerView={4}
          loop={true}
          breakpoints={{
-           0: {
+           0: { 
              slidesPerView: 2,
-
+             
            },
-           1000: {
-           slidesPerView: 2,
-
+           767: { 
+           slidesPerView: 4,
+          
          },
-             1200: {
-                 slidesPerView: 4,
-
-             },
          }}
        >
-
+       
             {teamMembers.slice(0, 6).map((elm, i) => (
               <SwiperSlide key={i}>
                 <div className="teamCard -type-1 -teamCard-hover">
