@@ -45,7 +45,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
         activeMobileMenu ? "-is-el-visible" : ""
       }`}
     >
-      <div className="header-menu__content">
+      <div className="header-menu__content mobilex">
         <div className="mobile-bg js-mobile-bg"></div>
 
         <div className="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">

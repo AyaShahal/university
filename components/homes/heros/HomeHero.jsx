@@ -92,7 +92,7 @@ const HomeHero = () => {
 
           </Swiper>
 
-          <div className="row  counter__row" style={{paddingTop:0}}>
+          <div className="row  counter__row countrbarx" style={{paddingTop:0}}>
             {counters.map((elm, i) => (
                 <div
                     key={i}
@@ -107,7 +107,7 @@ const HomeHero = () => {
                 </div>
             ))}
           </div>
-          <div className="d-flex  x-gap-15  items-center lg:pt-40" style={{float:"right",position: "relative",
+          <div className="arrowx d-flex  x-gap-15  items-center lg:pt-40" style={{float:"right",position: "relative",
             top: -67}} >
             <div className="col-auto">
               <button className="button -outline-white text-white size-50 rounded-full d-flex justify-center items-center js-next">

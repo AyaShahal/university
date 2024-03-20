@@ -32,7 +32,7 @@ export default function Join() {
             </div>
           </div>
 
-          <div className="col">
+          <div className="col" style={{marginLeft: 200}}>
             <div className="footer-header__logo">
               <br />
               <Image
