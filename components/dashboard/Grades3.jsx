@@ -97,11 +97,11 @@ export default function EventsOne() {
                               : "text-dark-1"
                           }`}
                           style={{
-                            borderColor: "#204250", 
+                            borderColor: "#204250",
                             backgroundColor:
                               activeButton === "65e39e625a35f51ff98b1da9"
                                 ? "#204250"
-                                : "transparent", 
+                                : "transparent",
                           }}
                         >
                           Undergraduate
@@ -118,11 +118,11 @@ export default function EventsOne() {
                               : "text-dark-1"
                           }`}
                           style={{
-                            borderColor: "#204250", 
+                            borderColor: "#204250",
                             backgroundColor:
                               activeButton === "65e4c5db2200cf54d621dd5a"
                                 ? "#204250"
-                                : "transparent", 
+                                : "transparent",
                           }}
                         >
                           Graduate
@@ -133,7 +133,7 @@ export default function EventsOne() {
                 </div>
 
                 <br />
-                <div className="container">
+                <div className="container nopadding">
                   <div
                     className="border-light-bottom py-20 px-30"
                     style={{ backgroundColor: "#204250" }}

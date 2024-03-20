@@ -15802,6 +15802,10 @@ a.activeMenu {
 }
 
 
+.dashboard__content .col-xl-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
   .dashboard__content .col-xl-6 {
     flex: 0 0 auto;
     width: 50%;
@@ -15840,7 +15844,7 @@ a.activeMenu {
   padding: 0 40px;
   font-size: 24px;
   font-weight: bold;
-  background: #7E5AA6;
+  background: #204250;
 }
 
 .security-code b {
@@ -15865,3 +15869,10 @@ a.activeMenu {
 }
 
 
+.mobile-footer{
+  height: 260px;
+}
+
+.nopadding{
+  padding: 0;
+}

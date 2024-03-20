@@ -131,7 +131,7 @@ export default function EventsOne() {
 
                 <br />
 
-                <div className="container">
+                <div className="container nopadding">
                   <div
                     className="border-light-bottom py-20 px-30"
                     style={{ backgroundColor: "#204250" }}
