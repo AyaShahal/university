@@ -97,11 +97,11 @@ export default function EventsOne() {
                               : "text-dark-1"
                           }`}
                           style={{
-                            borderColor: "#204250",
+                            borderColor: "#204250", 
                             backgroundColor:
                               activeButton === "65e39e625a35f51ff98b1da9"
                                 ? "#204250"
-                                : "transparent",
+                                : "transparent", 
                           }}
                         >
                           Undergraduate
@@ -118,11 +118,11 @@ export default function EventsOne() {
                               : "text-dark-1"
                           }`}
                           style={{
-                            borderColor: "#204250",
+                            borderColor: "#204250", 
                             backgroundColor:
                               activeButton === "65e4c5db2200cf54d621dd5a"
                                 ? "#204250"
-                                : "transparent",
+                                : "transparent", 
                           }}
                         >
                           Graduate
@@ -133,16 +133,16 @@ export default function EventsOne() {
                 </div>
 
                 <br />
-                <div className="container nopadding">
+                <div className="container" style={{ padding: 0 }}>
                   <div
                     className="border-light-bottom py-20 px-30"
                     style={{ backgroundColor: "#204250" }}
                   >
                     <div className="row y-gap-20 justify-between items-center text-white">
-                      <div className="col-xl-3">Major</div>
+                      <div className="col-xl-6">Major</div>
                       <div className="col-xl-2">Credits</div>
-                      <div className="col-xl-2">Contract Sheet</div>
-                      <div className="col-xl-2">Course Description</div>
+                      <div className="col-xl-2 center">Contract Sheet</div>
+                      <div className="col-xl-2 center">Course Description</div>
                     </div>
                   </div>
                   {certificatesData.map((certificate, index) => (
@@ -163,9 +163,9 @@ export default function EventsOne() {
                       onMouseLeave={() => setHoveredIndex(-1)}
                     >
                       <div className="row y-gap-20 justify-between items-center">
-                        <div className="col-xl-3">
+                        <div className="col-xl-6">
                           <div
-                            className={`col-xl-3 d-flex items-center ${
+                            className={` d-flex items-center ${
                               index === hoveredIndex
                                 ? "text-white"
                                 : "text-dark-1"
@@ -177,7 +177,7 @@ export default function EventsOne() {
                         <div className="col-xl-2">
                           <div className="d-flex justify-end">
                             <div
-                              className={`col-xl-2 d-flex justify-end ${
+                              className={`col-xl-2 center ${
                                 index === hoveredIndex
                                   ? "text-white"
                                   : "text-dark-1"
@@ -188,7 +188,7 @@ export default function EventsOne() {
                           </div>
                         </div>
                         <div className="col-xl-2">
-                          <div className="d-flex justify-end">
+                          <div className=" center">
                             <div className="text-dark-1">
                               <a
                                 href={certificate.full_picture}
@@ -204,7 +204,7 @@ export default function EventsOne() {
                           </div>
                         </div>
                         <div className="col-xl-2">
-                          <div className="d-flex justify-end">
+                          <div className="center">
                             <div className="text-dark-1">
                               <a
                                 href={certificate.full_picture2}
