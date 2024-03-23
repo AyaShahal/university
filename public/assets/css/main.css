@@ -9392,7 +9392,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-white {
   color: var(--color-white) !important;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .text-black {
