@@ -20,9 +20,9 @@ import FooterOne from "../components/layout/footers/FooterOne";
 import Preloader from "@/components/common/Preloader";
 import FindLearningPath from "@/components/homes/FindLearningPath";
 export const metadata = {
-  title: 'Paris International Univercity',
+  title: 'Paris International university',
   description:
-    'Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.',
+    'Paris International University is located in Paris, the capital city of France. Founded in 1989, the University offers over 36-Majors programs to students from over 100 countries. Our university is distinguished by an outstanding hands-on learning experience spanning the classroom, campus, and a wide variety of work environments.',
 
 }
 
