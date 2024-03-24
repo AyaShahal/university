@@ -15883,3 +15883,12 @@ a.activeMenu {
 .nopadding{
   padding: 0;
 }
+
+
+@media screen and (max-width: 1000px) {
+  a:visited{
+    color: white !important;
+    font-weight: bold;
+  }
+
+}
