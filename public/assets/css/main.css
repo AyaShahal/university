@@ -15891,4 +15891,9 @@ a.activeMenu {
     font-weight: bold;
   }
 
+  .sidekick{
+    position: relative;
+    left: -11px;
+  }
+
 }
