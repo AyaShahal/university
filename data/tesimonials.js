@@ -16,7 +16,7 @@ export const testimonials = [
     position: "",
     // comment: "Great Work",
     description: `With my course you can work all over the world - the
-    University of Brighton is well recognised internationally
+    University of Paris is well recognised internationally
     and with a PIU degree you can work anywhere.`,
   },
   {
