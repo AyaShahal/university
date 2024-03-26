@@ -21,20 +21,22 @@ export default function LoginForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    Utilites.showErrorMessage("Server error");
+    return;
     try {
       const engine = new RequestEngine();
-      const response = await engine.userlogin(formData.usernameOrEmail, formData.password); 
-      console.log('Response:', response); 
-      
+      const response = await engine.userlogin(formData.usernameOrEmail, formData.password);
+      console.log('Response:', response);
+
       if (response && response.status === 200) {
         if (response.data.success) {
-          const user = response.data.data.user; 
-          const token = response.data.data.token; 
+          const user = response.data.data.user;
+          const token = response.data.data.token;
           if (user && token) {
-          
+
             localStorage.setItem('user', JSON.stringify(user));
             localStorage.setItem('token', token);
-            
+
             setIsLoggedIn(true);
             console.log('Logged in successfully:', user);
             window.location.href = "/dashboard";
@@ -51,9 +53,9 @@ export default function LoginForm() {
       console.error('Error:', error);
     }
   };
-  
-  
-  
+
+
+
 
   return (
     <div className="form-page__content lg:py-50">

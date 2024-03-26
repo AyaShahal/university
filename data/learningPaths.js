@@ -50,7 +50,7 @@ export const learningPathTwo = [
   {
     id: 4,
     icon: "/assets/img/home-4/learning/4.svg",
-    title: "Industrial Standart",
+    title: "Industrial Standard",
     text: "Grursus mal suada faci lisis that ipsum ameti consecte.",
     bgColor: "bg-orange-3",
   },
@@ -77,7 +77,7 @@ export const learningPathFive = [
   },
   {
     id: 4,
-    title: "Industrial Standart",
+    title: "Industrial Standard",
     image: "/assets/img/home-5/learning/4.svg",
     description: "Grursus mal suada faci lisis that ipsum ameti consecte.",
   },
@@ -165,7 +165,7 @@ export const learningJourney = [
     text: "Delivers a rigorous curriculum aligned with students’ academic and professional ambitions, backed by dedicated leadership, qualified faculty, and supportive administrative services ensuring student success.",
     delay: 1,
   },
-  
+
   {
     id: 2,
     imageSrc: "/assets/img/home-5/learning/3.svg",
@@ -183,9 +183,9 @@ export const learningJourney = [
   {
     id: 4,
     imageSrc: "/assets/img/home-5/learning/4.svg",
-    title: "Industrial Standart",
+    title: "Industrial Standard",
     text: "Continuously assesses, improves, and ensures the effectiveness of the University and its  programs.",
     delay: 4,
   },
-  
+
 ];
