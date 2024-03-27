@@ -20,7 +20,6 @@ export default function page() {
                     <Sidebar/>
 
                 </div>
-                <Message/>
               </div>
           </div>
         </main>

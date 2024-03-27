@@ -33,7 +33,6 @@ export default function page() {
                     <Sidebar/>
 
                 </div>
-                <BookMarks/>
               </div>
           </div>
         </main>

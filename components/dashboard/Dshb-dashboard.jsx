@@ -53,9 +53,6 @@ export default function DshbDashboard() {
                       <div className="text-14">This Week</div>
                     </div>
                   </div>
-                  <div className="py-40 px-30">
-                    <Charts />
-                  </div>
                 </div>
               </div>
 
@@ -66,9 +63,6 @@ export default function DshbDashboard() {
                     <div className="">
                       <div className="">This Week</div>
                     </div>
-                  </div>
-                  <div className="py-40 px-30">
-                    <PieChartComponent />
                   </div>
                 </div>
               </div>
@@ -358,11 +352,7 @@ export default function DshbDashboard() {
                       </div>
                     </div>
 
-                    <div className="row y-gap-30">
-                      {coursesData.map((elm, i) => (
-                        <CourseCardTwo data={elm} key={i} />
-                      ))}
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -770,9 +760,6 @@ export default function DshbDashboard() {
                 </div>
               </div>
 
-              <div className="col-12">
-                <CalendarTwo />
-              </div>
             </div>
           </div>
         </div>

@@ -22,7 +22,6 @@ export default function page() {
                     <Sidebar/>
 
                 </div>
-                <Administration/>
               </div>
           </div>
         </main>

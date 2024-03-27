@@ -22,7 +22,6 @@ export default function page() {
                     <Sidebar/>
 
                 </div>
-                <Calender/>
               </div>
           </div>
         </main>

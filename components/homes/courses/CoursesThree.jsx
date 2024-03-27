@@ -209,9 +209,7 @@ export default function CategoriesTwo() {
           data-aos-offset="80"
           data-aos-duration={800}
         >
-          {pageItems.slice(0, 8).map((elm, i) => (
-            <CourseCardTwo key={i} data={elm} index={i} />
-          ))}
+
         </div>
 
         <div className="row justify-center pt-60 lg:pt-40">

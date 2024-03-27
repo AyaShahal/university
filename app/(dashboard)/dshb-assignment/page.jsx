@@ -23,7 +23,6 @@ export default function page() {
                     <Sidebar/>
 
                 </div>
-                <Assignment/>
               </div>
           </div>
         </main>
