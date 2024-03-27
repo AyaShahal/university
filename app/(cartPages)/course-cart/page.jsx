@@ -18,7 +18,7 @@ import CourseCart from '../../../components/cartsAndCheckout/CourseCart'
 export const metadata = {
   title: 'Course-cart || Educrat - Professional LMS Online Education Course NextJS Template',
   description:
-    'Paris International University is located in Paris, the capital city of France. Founded in 1989, the University offers over 36-Majors programs to students from over 100 countries. Our university is distinguished by an outstanding hands-on learning experience spanning the classroom, campus, and a wide variety of work environments.',
+    'Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.',
   
 }
 export default function page() {

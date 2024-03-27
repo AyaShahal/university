@@ -80,8 +80,7 @@ export default function page() {
                         Give back to your community – volunteer!<br/>
                         Share your time and talents with others on campus and around the globe.<br/>
                         Best wishes for an extraordinary Paris Experience, and GO BLUE!<br/>
-                        Dean: <b>Charnaud A. Emil</b><br/>
-                        Email: <b><a href={"mailto:dean@piu-paris.com"}>dean@piu-paris.com</a> </b>
+                        Dean: Charnaud A. Emil
                     </p>
                 </div>
             </div>

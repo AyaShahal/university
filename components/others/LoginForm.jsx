@@ -21,22 +21,20 @@ export default function LoginForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    Utilites.showErrorMessage("Server error");
-    return;
     try {
       const engine = new RequestEngine();
-      const response = await engine.userlogin(formData.usernameOrEmail, formData.password);
-      console.log('Response:', response);
-
+      const response = await engine.userlogin(formData.usernameOrEmail, formData.password); 
+      console.log('Response:', response); 
+      
       if (response && response.status === 200) {
         if (response.data.success) {
-          const user = response.data.data.user;
-          const token = response.data.data.token;
+          const user = response.data.data.user; 
+          const token = response.data.data.token; 
           if (user && token) {
-
+          
             localStorage.setItem('user', JSON.stringify(user));
             localStorage.setItem('token', token);
-
+            
             setIsLoggedIn(true);
             console.log('Logged in successfully:', user);
             window.location.href = "/dashboard";
@@ -53,9 +51,9 @@ export default function LoginForm() {
       console.error('Error:', error);
     }
   };
-
-
-
+  
+  
+  
 
   return (
     <div className="form-page__content lg:py-50">
@@ -64,13 +62,7 @@ export default function LoginForm() {
           <div className="col-xl-6 col-lg-8">
             <div className="px-50 py-50 md:px-25 md:py-25 bg-white shadow-1 rounded-16">
               <h3 className="text-30 lh-13">Login</h3>
-              <p className="mt-10">
-                Don't have an account yet?{" "}
-                <Link href="/signup" className="text-purple-1">
-                  Sign up for free
-                </Link>
-              </p>
-
+           
               <form
                 className="contact-form respondForm__form row y-gap-20 pt-30"
                 onSubmit={handleSubmit}
