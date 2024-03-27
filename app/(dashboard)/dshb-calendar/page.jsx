@@ -1,16 +1,14 @@
 
 
 import Preloader from '@/components/common/Preloader'
-import DashboardOne from '@/components/dashboard/DashboardOne'
 import Sidebar from '@/components/dashboard/Sidebar'
-import Calender from '@/components/dashboard/calendar/Calender'
 import HeaderDashboard from '@/components/layout/headers/HeaderDashboard'
 import React from 'react'
 export const metadata = {
   title: 'Dashboard-calendar || Educrat - Professional LMS Online Education Course NextJS Template',
   description:
     'Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.',
-  
+
 }
 export default function page() {
   return (

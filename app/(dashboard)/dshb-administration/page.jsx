@@ -1,17 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-import DashboardOne from '@/components/dashboard/DashboardOne'
 import Sidebar from '@/components/dashboard/Sidebar'
-import Administration from '@/components/dashboard/Administration'
 import HeaderDashboard from '@/components/layout/headers/HeaderDashboard'
 import React from 'react'
 import Preloader from '@/components/common/Preloader'
@@ -20,7 +7,7 @@ export const metadata = {
   title: 'Dashboard-administration || Educrat - Professional LMS Online Education Course NextJS Template',
   description:
     'Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.',
-  
+
 }
 
 export default function page() {

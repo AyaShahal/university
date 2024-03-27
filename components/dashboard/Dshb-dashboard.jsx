@@ -2,16 +2,12 @@
 
 import React from "react";
 
-import PieChartComponent from "./PieCharts";
 import { activeUsers, coursesData, states, timeline } from "@/data/dashboard";
 
 import { resentCourses, tags } from "@/data/courses";
-import CourseCardTwo from "./DashBoardCards/CourseCardTwo";
 
 import Image from "next/image";
 import PageLinksTwo from "../common/PageLinksTwo";
-import Charts from "./Charts";
-import CalendarTwo from "./calendar/CalenderTwo";
 
 export default function DshbDashboard() {
   return (
