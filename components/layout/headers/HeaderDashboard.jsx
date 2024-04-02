@@ -9,16 +9,16 @@ import { notifications } from "@/data/notifications";
 import Messages from "../component/Messages";
 import MyCourses from "../component/MyCourses";
 import Link from "next/link";
-import Constants from '@/core/Constants'; 
+import Constants from '@/core/Constants';
 export default function HeaderDashboard() {
   const [messageOpen, setMessageOpen] = useState(false);
-  const [userImage, setUserImage] = useState(""); 
+  const [userImage, setUserImage] = useState("");
 
   useEffect(() => {
     const userDataFromStorage = localStorage.getItem("user");
     if (userDataFromStorage) {
       const parsedUserData = JSON.parse(userDataFromStorage);
-     
+
       setUserImage(parsedUserData.fullpicture);
     }
   }, []);
@@ -128,8 +128,8 @@ export default function HeaderDashboard() {
                   onClick={() => setIsOnProfile((prev) => !prev)}
                 >
                   <a href="#" data-el-toggle=".js-profile-toggle">
-                  <img  src={userImage} width={50}
-                            height={50} />
+                  <img  src={userImage} width={80}
+                            height={80} />
 
 
                   </a>

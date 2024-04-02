@@ -15884,16 +15884,19 @@ a.activeMenu {
   padding: 0;
 }
 .select-wrapper select {
-  padding: 8px 20px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .select-wrapper select:focus {
-  outline: none; 
-  border-color: #007bff; 
+  outline: none;
+  border-color: #007bff;
 }
-
+.bluex{
+  color: #007bff !important;
+  text-decoration: underline;
+}
 
 
 @media screen and (max-width: 1000px) {
