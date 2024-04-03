@@ -66,12 +66,30 @@ export default function YourComponent() {
               <ul>
 
 
+                <div className="col-12 px-5">
+
+                </div>
                 <li>
-                  View Contract Sheet  <a href={userData.majorlink} target="_blank" className={" bluex"} rel="noopener noreferrer">here</a>
+                    <button className="button -md -purple-1 text-white">
+                  <a href={userData.majorlink} target="_blank" style={{width:150}} rel="noopener noreferrer">View Contract Sheet </a>
+                </button>
                 </li>
+                <hr/>
                 <li>
-                  View Course   <a href={userData.majorlink2} target="_blank"  className={" bluex"}  rel="noopener noreferrer">here</a>
+
+                  <button className="button -md -purple-1 text-white">
+                    <a href={userData.majorlink2} target="_blank" style={{width:150}} rel="noopener noreferrer">View Course </a>
+                  </button>
                 </li>
+                <hr/>
+                {userData.picture2 && <li>
+
+                  <button className="button -md -purple-1 text-white">
+                    <a href={userData.fullpicture2} target="_blank" style={{width:150}} rel="noopener noreferrer">View Certification </a>
+                  </button>
+                  <br/>
+                  <div style={{fontStyle:"italic"}}>Congratulations for your certification!</div>
+                </li>}
               </ul>
 
             </div>
